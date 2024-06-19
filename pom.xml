@@ -1,0 +1,174 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.teklab</groupId>
+  <artifactId>b14BDD</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>Taklab b14 DBB Automation testing Framework</name>
+  <description>BDD framework</description>
+  
+  
+  <properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<maven.compiler.source>17</maven.compiler.source>    
+		<maven.compiler.target>17</maven.compiler.target>    
+	</properties>
+
+
+	<dependencies>
+
+		<!-- API Related -->
+		<!-- https://mvnrepository.com/artifact/io.rest-assured/rest-assured -->
+		<dependency>
+			<groupId>io.rest-assured</groupId>
+			<artifactId>rest-assured</artifactId>
+			<version>5.3.0</version>
+			<scope>test</scope>
+		</dependency>
+
+		<!-- NEW dependencies -->
+		<dependency>
+			<groupId>io.cucumber</groupId>
+			<artifactId>cucumber-java</artifactId>
+			<version>6.10.2</version>
+		</dependency>
+
+		<dependency>
+			<groupId>io.cucumber</groupId>
+			<artifactId>cucumber-junit</artifactId>
+			<version>6.10.2</version>
+		</dependency>
+
+
+		<dependency>
+		    <groupId>junit</groupId>
+		    <artifactId>junit</artifactId>
+		    <version>4.13.2</version>
+		    <scope>test</scope>
+		</dependency>
+
+		
+		<!-- this still used extend report 4-->
+		<dependency>
+			<groupId>tech.grasshopper</groupId>
+			<artifactId>extentreports-cucumber6-adapter</artifactId>
+			<version>1.2.0</version>
+			<scope>test</scope>
+		</dependency> 
+
+		<!-- work with ExtentReports version 5.-->
+		<!--<dependency>
+			<groupId>tech.grasshopper</groupId>
+			<artifactId>extentreports-cucumber6-adapter</artifactId>
+			<version>2.14.3</version>
+			<scope>test</scope>
+		</dependency>-->
+		
+		
+		<!-- web application UI testing functionality-->
+		<dependency>
+			<groupId>org.seleniumhq.selenium</groupId>
+			<artifactId>selenium-java</artifactId>
+			<version>4.8.3</version> <!--The old one is 3.141.59 -->
+		</dependency>
+
+		<!-- Read XML files-->
+		<!-- XML Reader -->
+		<!-- https://mvnrepository.com/artifact/jaxen/jaxen --> 
+		<dependency>
+			<groupId>jaxen</groupId>
+			<artifactId>jaxen</artifactId> <!-- provide xpath capability for dom4J -->
+			<version>1.2.0</version>   
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/org.dom4j/dom4j -->
+		<dependency>
+			<groupId>org.dom4j</groupId>
+			<artifactId>dom4j</artifactId>
+			<version>2.1.3</version>
+		</dependency>
+
+		<!--writing logs-->
+		<!-- Log4j dependency -->
+		<!-- https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-api -->
+		<dependency>
+			<groupId>org.apache.logging.log4j</groupId>
+			<artifactId>log4j-api</artifactId>
+			<version>2.18.0</version>     <!--students are using 2.17.1 version -->
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-core -->
+		<dependency>
+			<groupId>org.apache.logging.log4j</groupId>
+			<artifactId>log4j-core</artifactId>
+			<version>2.18.0</version>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-slf4j-impl -->
+		<dependency>
+			<groupId>org.apache.logging.log4j</groupId>
+			<artifactId>log4j-slf4j-impl</artifactId>
+			<version>2.18.0</version>
+			<scope>test</scope>
+		</dependency>
+
+
+		<!--probably won't need them in BDD framework because feature files could handle data-->
+		<!-- Json reader -->
+		<dependency>
+			<groupId>com.jayway.jsonpath</groupId>
+			<artifactId>json-path</artifactId>
+			<version>2.6.0</version>   
+		</dependency>
+		
+		<dependency>
+			<groupId>com.googlecode.json-simple</groupId>
+			<artifactId>json-simple</artifactId>
+			<version>1.1.1</version>   
+		</dependency>
+
+		<!-- Apache POI -->  <!-- Framework Read Excel -->
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi</artifactId>
+			<version>4.1.2</version>   <!-- you could use 4.1.0  or 5.0.0 -->
+		</dependency>
+
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi-ooxml</artifactId>
+			<version>4.1.2</version>   <!-- you could use 4.1.0  or 5.0.0 -->
+		</dependency>
+
+
+	</dependencies>
+	
+	
+	
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-surefire-plugin</artifactId>
+				<version>3.0.0-M7</version>
+				<configuration>
+					<forkCount>4</forkCount>
+					<reuseForks>false</reuseForks>
+					<reportsDirectory>target/surefire-reports-${surefire.forkNumber}</reportsDirectory>
+					<includes>
+						<!--  <include>**/*ModuleRunner*</include>
+						 <include>**/*ServiceRunner*</include> -->
+						 <include>**/*Runner*</include>
+					</includes>
+					<testFailureIgnore>true</testFailureIgnore><!--"true" to ignore a failure 
+						during testing -->
+				</configuration>
+			</plugin>
+			
+			
+		</plugins>
+
+	</build>
+	
+
+  
+</project>

@@ -1,0 +1,152 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2024-04-23T22:08:42.188Z",
+        "before": [
+          {
+            "result": {
+              "duration": 14055139500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.teklab.framework.bases.ui.UITestBase.startBrowserToCreatTest(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "User sign up with proper info",
+        "description": "",
+        "id": "amazon-function;user-sign-up-with-proper-info",
+        "after": [
+          {
+            "result": {
+              "duration": 4005900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.teklab.framework.bases.ui.UITestBase.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1435535100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User goes to Amazon sign up page",
+            "match": {
+              "location": "com.teklab.framework.steps.ui.authentication.AmazonSignUp_steps.user_goes_to_amazon_sign_up_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 710061400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User enter personal information",
+            "match": {
+              "location": "com.teklab.framework.steps.ui.authentication.AmazonSignUp_steps.user_enter_personal_information()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 10000300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User should be able to verify something",
+            "match": {
+              "location": "com.teklab.framework.steps.ui.authentication.AmazonSignUp_steps.user_should_be_able_to_verify_something()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SignUp"
+          },
+          {
+            "name": "@Authentication"
+          },
+          {
+            "name": "@uiRegression"
+          }
+        ]
+      }
+    ],
+    "name": "Amazon function",
+    "description": " As a user, I want to sign up with proper information",
+    "id": "amazon-function",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/UI/authentication/AmazonSignUp.feature",
+    "tags": [
+      {
+        "name": "@SignUp",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      },
+      {
+        "name": "@Authentication",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 9
+        }
+      }
+    ]
+  }
+]s.validate_the_token_is(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SignUp"
+          },
+          {
+            "name": "@API"
+          },
+          {
+            "name": "@APIRegression"
+          }
+        ]
+      }
+    ],
+    "name": "SignUp and login Service",
+    "description": "",
+    "id": "signup-and-login-service",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/API/authentication/idService.feature",
+    "tags": [
+      {
+        "name": "@SignUp",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      },
+      {
+        "name": "@API",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 11
+        }
+      }
+    ]
+  }
+]

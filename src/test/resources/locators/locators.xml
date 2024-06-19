@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pages>
+	
+	<SignUpPage>
+		<name>//input[@id='ap_customer_name']</name>
+		<email>//input[@name='email']</email>
+		<firstPw>//input[@id ='ap_password']</firstPw>
+	</SignUpPage>
+	<Honmepage>
+		<menu>//someXpathLocator</menu>
+	</Honmepage>
+	<SettingsPage>
+	</SettingsPage>
+	<ShoppingCart>
+	</ShoppingCart>
+</Pages>
+

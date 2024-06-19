@@ -1,0 +1,90 @@
+[INFO ] 2023-12-05 20:14:25.903 [main] Log4jManager - ----------------------
+[INFO ] 2023-12-05 20:14:25.908 [main] Log4jManager - -----Starting-User sign up with proper info-----------------
+[ERROR] 2023-12-05 20:14:25.913 [main] Log4jManager - something went wrong at startDockerContainerBrowser()
+[ERROR] 2023-12-05 20:14:25.914 [main] Log4jManager - something went wrong at startLocalBrowser()
+[ERROR] 2023-12-05 20:14:25.914 [main] Log4jManager - something went wrong at startBrowserInPrivateMode()
+[INFO ] 2023-12-07 18:27:42.752 [main] Log4jManager - ----------------------
+[INFO ] 2023-12-07 18:27:42.756 [main] Log4jManager - -----Starting-User sign up with proper info-----------------
+[INFO ] 2023-12-07 18:27:49.789 [main] Log4jManager - Successfully Initiated Firefox Driver
+[INFO ] 2023-12-07 18:27:52.467 [main] Log4jManager - User landed on Amazon sign up page
+[INFO ] 2023-12-07 18:27:53.265 [main] Log4jManager - User entered name, email and password information
+[INFO ] 2023-12-07 18:27:53.276 [main] Log4jManager - Validate the title equals to  expected title
+[INFO ] 2023-12-07 18:41:09.657 [main] Log4jManager - ----------------------
+[INFO ] 2023-12-07 18:41:09.662 [main] Log4jManager - -----Starting-User sign up with proper info-----------------
+[INFO ] 2023-12-07 18:41:15.600 [main] Log4jManager - Successfully Initiated Firefox Driver
+[INFO ] 2023-12-07 18:41:18.095 [main] Log4jManager - User landed on Amazon sign up page
+[INFO ] 2023-12-07 18:41:18.758 [main] Log4jManager - User entered name, email and password information
+[INFO ] 2023-12-07 18:41:18.766 [main] Log4jManager - Validate the title equals to  expected title
+[INFO ] 2023-12-07 18:56:43.052 [main] Log4jManager - ----------------------
+[INFO ] 2023-12-07 18:56:43.058 [main] Log4jManager - -----Starting-User sign up with proper info-----------------
+[INFO ] 2023-12-07 18:56:49.767 [main] Log4jManager - Successfully Initiated Firefox Driver
+[INFO ] 2023-12-07 18:56:54.179 [main] Log4jManager - User landed on Amazon sign up page
+[INFO ] 2023-12-07 18:56:54.787 [main] Log4jManager - User entered name, email and password information
+[INFO ] 2023-12-07 18:56:54.814 [main] Log4jManager - Validate the title equals to  expected title
+[INFO ] 2023-12-07 19:05:28.101 [main] Log4jManager - ----------------------
+[INFO ] 2023-12-07 19:05:28.108 [main] Log4jManager - -----Starting-User sign up with proper info-----------------
+[ERROR] 2023-12-07 19:05:29.843 [main] Log4jManager - failed to initiate Firefox Driver in Docker Container
+[INFO ] 2023-12-07 19:05:35.094 [main] Log4jManager - Successfully Initiated Firefox Driver
+[INFO ] 2023-12-07 19:05:39.718 [main] Log4jManager - Successfully Initiated Firefox Driver in private mode
+[INFO ] 2023-12-07 19:05:41.466 [main] Log4jManager - User landed on Amazon sign up page
+[INFO ] 2023-12-07 19:05:42.273 [main] Log4jManager - User entered name, email and password information
+[INFO ] 2023-12-07 19:05:42.286 [main] Log4jManager - Validate the title equals to  expected title
+[INFO ] 2023-12-09 08:08:56.038 [main] Log4jManager - ----------------------
+[INFO ] 2023-12-09 08:08:56.044 [main] Log4jManager - -----Starting-User sign up with proper info-----------------
+[ERROR] 2023-12-09 08:08:56.049 [main] Log4jManager - something went wrong at startDockerContainerBrowser()
+[ERROR] 2023-12-09 08:08:56.050 [main] Log4jManager - something went wrong at startLocalBrowser()
+[ERROR] 2023-12-09 08:08:56.050 [main] Log4jManager - something went wrong at startBrowserInPrivateMode()
+[INFO ] 2023-12-09 12:26:15.772 [main] Log4jManager - ----------------------
+[INFO ] 2023-12-09 12:26:15.781 [main] Log4jManager - -----Starting-User sign up with proper info-----------------
+[INFO ] 2023-12-09 12:26:22.787 [main] Log4jManager - Successfully Initiated Firefox Driver
+[INFO ] 2023-12-09 12:26:29.341 [main] Log4jManager - User landed on Amazon sign up page
+[INFO ] 2023-12-09 12:26:29.915 [main] Log4jManager - User entered name, email and password information
+[INFO ] 2023-12-09 12:26:29.930 [main] Log4jManager - Validate the title equals to  expected title
+[INFO ] 2023-12-26 18:31:46.519 [main] Log4jManager - --------------------------------
+[INFO ] 2023-12-26 18:31:46.522 [main] Log4jManager - ------Starting-  Validate registration and login service----------
+[INFO ] 2023-12-26 18:31:50.508 [main] Log4jManager - Made the API call to the register service
+[INFO ] 2023-12-26 18:31:50.997 [main] Log4jManager - Made the API call to the log in service
+[INFO ] 2023-12-26 18:31:52.367 [main] Log4jManager - verified status code and  the token to be : QpwL5tke4Pnpja7X4
+[INFO ] 2023-12-26 18:31:52.369 [main] Log4jManager - --------------------------------
+[INFO ] 2023-12-26 18:31:52.371 [main] Log4jManager - ------Validate registration and login servicestatus-PASSED----
+[INFO ] 2023-12-26 18:31:52.371 [main] Log4jManager - --------------------------
+[INFO ] 2023-12-26 18:32:46.479 [main] Log4jManager - --------------------------------
+[INFO ] 2023-12-26 18:32:46.483 [main] Log4jManager - ------Starting-  Validate registration and login service----------
+[INFO ] 2023-12-26 18:32:50.406 [main] Log4jManager - Made the API call to the register service
+[INFO ] 2023-12-26 18:32:50.881 [main] Log4jManager - Made the API call to the log in service
+[INFO ] 2023-12-26 18:32:52.282 [main] Log4jManager - verified status code and  the token to be : QpwL5tke4Pnpja7X4
+[INFO ] 2023-12-26 18:32:52.286 [main] Log4jManager - --------------------------------
+[INFO ] 2023-12-26 18:32:52.296 [main] Log4jManager - ------Validate registration and login servicestatus-PASSED----
+[INFO ] 2023-12-26 18:32:52.297 [main] Log4jManager - --------------------------
+[INFO ] 2024-04-23 13:19:21.463 [main] Log4jManager - ----------------------
+[INFO ] 2024-04-23 13:19:21.466 [main] Log4jManager - -----Starting-User sign up with proper info-----------------
+[INFO ] 2024-04-23 13:19:27.933 [main] Log4jManager - Successfully Initiated Firefox Driver
+[INFO ] 2024-04-23 13:19:29.354 [main] Log4jManager - User landed on Amazon sign up page
+[INFO ] 2024-04-23 13:19:30.137 [main] Log4jManager - User entered name, email and password information
+[INFO ] 2024-04-23 13:19:30.150 [main] Log4jManager - Validate the title equals to  expected title
+[INFO ] 2024-04-23 13:44:27.699 [main] Log4jManager - ----------------------
+[INFO ] 2024-04-23 13:44:27.705 [main] Log4jManager - -----Starting-User sign up with proper info-----------------
+[INFO ] 2024-04-23 13:44:33.372 [main] Log4jManager - Successfully Initiated Firefox Driver
+[INFO ] 2024-04-23 13:44:34.499 [main] Log4jManager - User landed on Amazon sign up page
+[INFO ] 2024-04-23 13:44:35.207 [main] Log4jManager - User entered name, email and password information
+[INFO ] 2024-04-23 13:44:35.223 [main] Log4jManager - Validate the title equals to  expected title
+[INFO ] 2024-04-23 14:31:36.661 [main] Log4jManager - ----------------------
+[INFO ] 2024-04-23 14:31:36.665 [main] Log4jManager - -----Starting-User sign up with proper info-----------------
+[INFO ] 2024-04-23 14:31:41.688 [main] Log4jManager - Successfully Initiated Firefox Driver
+[INFO ] 2024-04-23 14:31:42.790 [main] Log4jManager - User landed on Amazon sign up page
+[INFO ] 2024-04-23 14:31:43.505 [main] Log4jManager - User entered name, email and password information
+[INFO ] 2024-04-23 14:31:43.518 [main] Log4jManager - Validate the title equals to  expected title
+[INFO ] 2024-04-23 17:08:43.770 [main] Log4jManager - ----------------------
+[INFO ] 2024-04-23 17:08:43.775 [main] Log4jManager - -----Starting-User sign up with proper info-----------------
+[INFO ] 2024-04-23 17:08:43.787 [main] Log4jManager - --------------------------------
+[INFO ] 2024-04-23 17:08:43.793 [main] Log4jManager - ------Starting-  Validate registration and login service----------
+[INFO ] 2024-04-23 17:08:49.473 [main] Log4jManager - Made the API call to the register service
+[INFO ] 2024-04-23 17:08:49.903 [main] Log4jManager - Made the API call to the log in service
+[INFO ] 2024-04-23 17:08:53.341 [main] Log4jManager - verified status code and  the token to be : QpwL5tke4Pnpja7X4
+[INFO ] 2024-04-23 17:08:53.416 [main] Log4jManager - --------------------------------
+[INFO ] 2024-04-23 17:08:53.422 [main] Log4jManager - ------Validate registration and login servicestatus-PASSED----
+[INFO ] 2024-04-23 17:08:53.423 [main] Log4jManager - --------------------------
+[INFO ] 2024-04-23 17:08:56.346 [main] Log4jManager - Successfully Initiated Firefox Driver
+[INFO ] 2024-04-23 17:08:57.804 [main] Log4jManager - User landed on Amazon sign up page
+[INFO ] 2024-04-23 17:08:58.517 [main] Log4jManager - User entered name, email and password information
+[INFO ] 2024-04-23 17:08:58.528 [main] Log4jManager - Validate the title equals to  expected title
